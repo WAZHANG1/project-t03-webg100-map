@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks in a Van</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Rammetto+One&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/c8023afafc.js" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+    <header>
+        <h1>     
+            {{!-- <a href="/">Snacks in a Van <i class="fas fa-shuttle-van"></i></a>  --}}
+            Snacks in a Van <i class="fas fa-shuttle-van"></i>
+        </h1>  
+    </header>
+    <nav>
+        <section class = "menu-bar" style="color: #BF863F;">
+            <a href="/customer" style="color: #BF863F;">Map <i class="fas fa-map-marked-alt"></i></a>
+            &nbsp; | &nbsp;
+            <a href="/customer/getinfo" style="color: #BF863F;">profile <i class="fas fa-user"></i></a>
+            &nbsp; | &nbsp;
+            <a href="/customer/menu" style="color: #BF863F;">Menu <i class="fas fa-utensils"></i></a>
+            &nbsp; | &nbsp;
+            <a href="/customer/shopping-cart" style="color: #BF863F;">Shopping Cart <i class="fas fa-cart-arrow-down"></i></a>
+            &nbsp; | &nbsp;
+            <a href="/customer/newOrders" style="color: #BF863F;">Orders <i class="fas fa-concierge-bell"></i></a>
+            &nbsp; | &nbsp;
+            <a href="/customer/logout" style="color: #BF863F;">Logout <i class="fas fa-sign-out-alt "></i></a>
+            <hr size="30">
+        </section>
+    </nav>
+    <main>
+        {{{body}}}
+    </main>
+    <footer>
+        <p>INFO30005 group Project 2021</p>
+    </footer>
+</body>
+</html>
